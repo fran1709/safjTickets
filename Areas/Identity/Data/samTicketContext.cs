@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using samTicket.Areas.Identity.Data;
+using samTicket.Models;
 
 namespace samTicket.Data;
 
@@ -19,4 +20,8 @@ public class samTicketContext : IdentityDbContext<samTicketUser>
         // For example, you can rename the ASP.NET Identity table names and more.
         // Add your customizations after calling base.OnModelCreating(builder);
     }
+
+    public DbSet<samTicket.Models.TipoEscenario>? TipoEscenario { get; set; }
+
+    public DbSet<samTicket.Models.Escenario>? Escenario { get; set; }
 }
