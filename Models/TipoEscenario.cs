@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace samTicket.Models
+namespace devTicket.Models
 {
     public partial class TipoEscenario
     {

@@ -1,20 +1,16 @@
-using Microsoft.AspNetCore.Identity;
+using devTicket.Models;
 using Microsoft.EntityFrameworkCore;
-using samTicket.Areas.Identity.Data;
-using samTicket.Data;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("samTicketContextConnection") ?? 
-    throw new InvalidOperationException("Connection string 'samTicketContextConnection' not found.");
 
-builder.Services.AddDbContext<samTicketContext>(options =>
-    options.UseMySql(connectionString, new MySqlServerVersion(new Version(10, 4, 27))));
-
-builder.Services.AddDefaultIdentity<samTicketUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<samTicketContext>();
+string conn = builder.Configuration.GetConnectionString("DevTicketContextConnection");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DevTicketContext>(options => {
+    options.UseMySql(conn, new MySqlServerVersion(new Version(10, 4, 27)));
+});
 
 var app = builder.Build();
 
@@ -30,10 +26,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();
 
 app.UseAuthorization();
-app.MapRazorPages();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

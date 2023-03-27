@@ -1,4 +1,4 @@
-namespace samTicket.Models
+namespace devTicket.Models
 {
     public class ErrorViewModel
     {

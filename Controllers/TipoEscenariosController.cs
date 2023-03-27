@@ -5,16 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using samTicket.Data;
-using samTicket.Models;
+using devTicket.Models;
 
-namespace samTicket.Controllers
+namespace devTicket.Controllers
 {
     public class TipoEscenariosController : Controller
     {
-        private readonly samTicketContext _context;
+        private readonly DevTicketContext _context;
 
-        public TipoEscenariosController(samTicketContext context)
+        public TipoEscenariosController(DevTicketContext context)
         {
             _context = context;
         }
@@ -22,20 +21,20 @@ namespace samTicket.Controllers
         // GET: TipoEscenarios
         public async Task<IActionResult> Index()
         {
-              return _context.TipoEscenario != null ? 
-                          View(await _context.TipoEscenario.ToListAsync()) :
-                          Problem("Entity set 'samTicketContext.TipoEscenario'  is null.");
+            var devTicketContext = _context.TipoEscenarios.Include(t => t.IdEscenarioNavigation);
+            return View(await devTicketContext.ToListAsync());
         }
 
         // GET: TipoEscenarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.TipoEscenario == null)
+            if (id == null || _context.TipoEscenarios == null)
             {
                 return NotFound();
             }
 
-            var tipoEscenario = await _context.TipoEscenario
+            var tipoEscenario = await _context.TipoEscenarios
+                .Include(t => t.IdEscenarioNavigation)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (tipoEscenario == null)
             {
@@ -48,6 +47,7 @@ namespace samTicket.Controllers
         // GET: TipoEscenarios/Create
         public IActionResult Create()
         {
+            ViewData["IdEscenario"] = new SelectList(_context.Escenarios, "Id", "Id");
             return View();
         }
 
@@ -64,22 +64,24 @@ namespace samTicket.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdEscenario"] = new SelectList(_context.Escenarios, "Id", "Id", tipoEscenario.IdEscenario);
             return View(tipoEscenario);
         }
 
         // GET: TipoEscenarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.TipoEscenario == null)
+            if (id == null || _context.TipoEscenarios == null)
             {
                 return NotFound();
             }
 
-            var tipoEscenario = await _context.TipoEscenario.FindAsync(id);
+            var tipoEscenario = await _context.TipoEscenarios.FindAsync(id);
             if (tipoEscenario == null)
             {
                 return NotFound();
             }
+            ViewData["IdEscenario"] = new SelectList(_context.Escenarios, "Id", "Id", tipoEscenario.IdEscenario);
             return View(tipoEscenario);
         }
 
@@ -115,18 +117,20 @@ namespace samTicket.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdEscenario"] = new SelectList(_context.Escenarios, "Id", "Id", tipoEscenario.IdEscenario);
             return View(tipoEscenario);
         }
 
         // GET: TipoEscenarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.TipoEscenario == null)
+            if (id == null || _context.TipoEscenarios == null)
             {
                 return NotFound();
             }
 
-            var tipoEscenario = await _context.TipoEscenario
+            var tipoEscenario = await _context.TipoEscenarios
+                .Include(t => t.IdEscenarioNavigation)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (tipoEscenario == null)
             {
@@ -141,14 +145,14 @@ namespace samTicket.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.TipoEscenario == null)
+            if (_context.TipoEscenarios == null)
             {
-                return Problem("Entity set 'samTicketContext.TipoEscenario'  is null.");
+                return Problem("Entity set 'DevTicketContext.TipoEscenarios'  is null.");
             }
-            var tipoEscenario = await _context.TipoEscenario.FindAsync(id);
+            var tipoEscenario = await _context.TipoEscenarios.FindAsync(id);
             if (tipoEscenario != null)
             {
-                _context.TipoEscenario.Remove(tipoEscenario);
+                _context.TipoEscenarios.Remove(tipoEscenario);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +161,7 @@ namespace samTicket.Controllers
 
         private bool TipoEscenarioExists(int id)
         {
-          return (_context.TipoEscenario?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.TipoEscenarios?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

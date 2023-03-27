@@ -5,16 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using samTicket.Data;
-using samTicket.Models;
+using devTicket.Models;
 
-namespace samTicket.Controllers
+namespace devTicket.Controllers
 {
     public class EscenariosController : Controller
     {
-        private readonly samTicketContext _context;
+        private readonly DevTicketContext _context;
 
-        public EscenariosController(samTicketContext context)
+        public EscenariosController(DevTicketContext context)
         {
             _context = context;
         }
@@ -22,20 +21,20 @@ namespace samTicket.Controllers
         // GET: Escenarios
         public async Task<IActionResult> Index()
         {
-              return _context.Escenario != null ? 
-                          View(await _context.Escenario.ToListAsync()) :
-                          Problem("Entity set 'samTicketContext.Escenario'  is null.");
+              return _context.Escenarios != null ? 
+                          View(await _context.Escenarios.ToListAsync()) :
+                          Problem("Entity set 'DevTicketContext.Escenarios'  is null.");
         }
 
         // GET: Escenarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Escenario == null)
+            if (id == null || _context.Escenarios == null)
             {
                 return NotFound();
             }
 
-            var escenario = await _context.Escenario
+            var escenario = await _context.Escenarios
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (escenario == null)
             {
@@ -70,12 +69,12 @@ namespace samTicket.Controllers
         // GET: Escenarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Escenario == null)
+            if (id == null || _context.Escenarios == null)
             {
                 return NotFound();
             }
 
-            var escenario = await _context.Escenario.FindAsync(id);
+            var escenario = await _context.Escenarios.FindAsync(id);
             if (escenario == null)
             {
                 return NotFound();
@@ -121,12 +120,12 @@ namespace samTicket.Controllers
         // GET: Escenarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Escenario == null)
+            if (id == null || _context.Escenarios == null)
             {
                 return NotFound();
             }
 
-            var escenario = await _context.Escenario
+            var escenario = await _context.Escenarios
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (escenario == null)
             {
@@ -141,14 +140,14 @@ namespace samTicket.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Escenario == null)
+            if (_context.Escenarios == null)
             {
-                return Problem("Entity set 'samTicketContext.Escenario'  is null.");
+                return Problem("Entity set 'DevTicketContext.Escenarios'  is null.");
             }
-            var escenario = await _context.Escenario.FindAsync(id);
+            var escenario = await _context.Escenarios.FindAsync(id);
             if (escenario != null)
             {
-                _context.Escenario.Remove(escenario);
+                _context.Escenarios.Remove(escenario);
             }
             
             await _context.SaveChangesAsync();
@@ -157,7 +156,7 @@ namespace samTicket.Controllers
 
         private bool EscenarioExists(int id)
         {
-          return (_context.Escenario?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Escenarios?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

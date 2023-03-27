@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace samTicket.Models
+namespace devTicket.Models
 {
     public partial class Escenario
     {
         public Escenario()
         {
+            Asientos = new HashSet<Asiento>();
+            Eventos = new HashSet<Evento>();
             TipoEscenarios = new HashSet<TipoEscenario>();
         }
 
@@ -19,6 +21,8 @@ namespace samTicket.Models
         public int UpdatedBy { get; set; }
         public bool Active { get; set; }
 
+        public virtual ICollection<Asiento> Asientos { get; set; }
+        public virtual ICollection<Evento> Eventos { get; set; }
         public virtual ICollection<TipoEscenario> TipoEscenarios { get; set; }
     }
 }

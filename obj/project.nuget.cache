@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eEUvHjVhCb6Jkx22wmJ1ARa4QbQuMPnvjYHRy/zapcgDjRgUVYuwPmnyqI/VSEw3Ck6Yck1ATbEcmUgbaVg9RQ==",
+  "dgSpecHash": "8XrMkT8q22jOBghap3GrMHthJ5CzC8uKfMbWA2QBJotrhksz0NXfl5+Bm2lNTgjU0gZeQlxnQlIKFQU99UldzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franj\\source\\repos\\samTicket\\samTicket.csproj",
+  "projectFilePath": "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franj\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\franj\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -10860,11 +10860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franj\\source\\repos\\samTicket\\samTicket.csproj",
-      "projectName": "samTicket",
-      "projectPath": "C:\\Users\\franj\\source\\repos\\samTicket\\samTicket.csproj",
+      "projectUniqueName": "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj",
+      "projectName": "devTicket",
+      "projectPath": "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj",
       "packagesPath": "C:\\Users\\franj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franj\\source\\repos\\samTicket\\obj\\",
+      "outputPath": "C:\\Users\\franj\\source\\repos\\devTicket\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\franj\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<samTicket.Models.TipoEscenario>
+﻿@model IEnumerable<devTicket.Models.TipoEscenario>
 
 @{
     ViewData["Title"] = "Index";
@@ -31,7 +31,7 @@
                 @Html.DisplayNameFor(model => model.Active)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.IdEscenario)
+                @Html.DisplayNameFor(model => model.IdEscenarioNavigation)
             </th>
             <th></th>
         </tr>
@@ -58,7 +58,7 @@
                 @Html.DisplayFor(modelItem => item.Active)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdEscenario)
+                @Html.DisplayFor(modelItem => item.IdEscenarioNavigation.Id)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

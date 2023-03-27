@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using samTicket.Models;
+﻿using devTicket.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace samTicket.Controllers
+namespace devTicket.Controllers
 {
     public class HomeController : Controller
     {
