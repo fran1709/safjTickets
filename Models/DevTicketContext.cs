@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace devTicket.Models
 {
-    public partial class DevTicketContext : DbContext
+    public partial class DevTicketContext : IdentityDbContext
     {
         public DevTicketContext()
         {
@@ -38,7 +39,7 @@ namespace devTicket.Models
         {
             modelBuilder.UseCollation("utf8mb4_general_ci")
                 .HasCharSet("utf8mb4");
-
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Asiento>(entity =>
             {
                 entity.ToTable("asiento");

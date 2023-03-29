@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj": {}
+    "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj": {
+    "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj",
+        "projectUniqueName": "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj",
         "projectName": "devTicket",
-        "projectPath": "C:\\Users\\franj\\source\\repos\\devTicket\\devTicket.csproj",
+        "projectPath": "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj",
         "packagesPath": "C:\\Users\\franj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\franj\\source\\repos\\devTicket\\obj\\",
+        "outputPath": "C:\\Users\\franj\\source\\repos\\safjTickets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
