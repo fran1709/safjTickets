@@ -10855,19 +10855,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franj\\.nuget\\packages\\": {}
+    "C:\\Users\\Sam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj",
+      "projectUniqueName": "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj",
       "projectName": "devTicket",
-      "projectPath": "C:\\Users\\franj\\source\\repos\\safjTickets\\devTicket.csproj",
-      "packagesPath": "C:\\Users\\franj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franj\\source\\repos\\safjTickets\\obj\\",
+      "projectPath": "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj",
+      "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sam\\Desktop\\safjTickets\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10943,7 +10943,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,233 +5,232 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = devTicket
 build_property.RootNamespace = devTicket
-build_property.ProjectDir = C:\Users\franj\source\repos\safjTickets\
+build_property.ProjectDir = C:\Users\Sam\Desktop\safjTickets\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\franj\source\repos\safjTickets
+build_property.MSBuildProjectDirectory = C:\Users\Sam\Desktop\safjTickets
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Asientoes/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Asientoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZW50b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Asientoes/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Asientoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZW50b2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Asientoes/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Asientoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZW50b2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Asientoes/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Asientoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZW50b2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Asientoes/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Asientoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZW50b2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Compras/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Compras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Compras/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Compras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Compras/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Compras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Compras/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Compras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Compras/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Compras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Entradas/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Entradas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Entradas/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Entradas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Entradas/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Entradas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Entradas/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Entradas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Entradas/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Entradas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Escenarios/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Escenarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjZW5hcmlvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Escenarios/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Escenarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjZW5hcmlvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Escenarios/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Escenarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjZW5hcmlvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Escenarios/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Escenarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjZW5hcmlvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Escenarios/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Escenarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjZW5hcmlvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Eventos/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Eventos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Eventos/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Eventos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Eventos/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Eventos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Eventos/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Eventos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Eventos/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Eventos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Home/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Home/Privacy.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Shared/Error.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEscenarios/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEscenarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0VzY2VuYXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEscenarios/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEscenarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0VzY2VuYXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEscenarios/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEscenarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0VzY2VuYXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEscenarios/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEscenarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0VzY2VuYXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEscenarios/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEscenarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0VzY2VuYXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEventoes/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEventoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V2ZW50b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEventoes/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEventoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V2ZW50b2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEventoes/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEventoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V2ZW50b2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEventoes/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEventoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V2ZW50b2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/TipoEventoes/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/TipoEventoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0V2ZW50b2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Usuarios/Create.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Usuarios/Delete.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Usuarios/Details.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Usuarios/Edit.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Usuarios/Index.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/_ViewImports.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/_ViewStart.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/franj/source/repos/safjTickets/Views/Shared/_Layout.cshtml]
+[C:/Users/Sam/Desktop/safjTickets/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-va4lvx4aw4
