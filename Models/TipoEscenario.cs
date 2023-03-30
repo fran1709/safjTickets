@@ -14,6 +14,6 @@ namespace devTicket.Models
         public bool Active { get; set; }
         public int IdEscenario { get; set; }
 
-        public virtual Escenario IdEscenarioNavigation { get; set; } = null!;
+        public virtual Escenario? IdEscenarioNavigation { get; set; }
     }
 }

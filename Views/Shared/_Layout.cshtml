@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - devTicket</title>
+    <title>@ViewData["Title"] - SaFj</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/devTicket.styles.css" asp-append-version="true" />
@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">devTicket</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SaFj</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,12 +20,25 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
                         </li>
                     </ul>
+                    <div class="dropdown">
+                        <button>Administración</button>
+                        <div class="dropdown-options">
+                            <a href="https://localhost:7273/Compras">Compras</a>
+                            <a href="https://localhost:7273/Asientoes">Asientos</a>
+                            <a href="https://localhost:7273/Entradas">Entradas</a>
+                            <a href="https://localhost:7273/Eventos">Eventos</a>
+                            <a href="https://localhost:7273/TipoEventoes">Tipo de Evento</a>
+                            <a href="https://localhost:7273/Escenarios">Escenarios</a>
+                            <a href="https://localhost:7273/TipoEscenarios">Tipo de Escenarios</a>
+                            <a href="https://localhost:7273/Usuarios">Usuarios</a>
+                        </div>
+                    </div>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
@@ -39,12 +52,14 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - devTicket - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - SaFj Tickets - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

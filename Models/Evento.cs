@@ -22,8 +22,8 @@ namespace devTicket.Models
         public int IdTipoEvento { get; set; }
         public int IdEscenario { get; set; }
 
-        public virtual Escenario IdEscenarioNavigation { get; set; } = null!;
-        public virtual TipoEvento IdTipoEventoNavigation { get; set; } = null!;
-        public virtual ICollection<Entrada> Entrada { get; set; }
+        public virtual Escenario? IdEscenarioNavigation { get; set; }
+        public virtual TipoEvento? IdTipoEventoNavigation { get; set; }
+        public virtual ICollection<Entrada>? Entrada { get; set; }
     }
 }

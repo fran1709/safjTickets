@@ -20,7 +20,7 @@ namespace devTicket.Models
         public bool Active { get; set; }
         public int IdEvento { get; set; }
 
-        public virtual Evento IdEventoNavigation { get; set; } = null!;
+        public virtual Evento? IdEventoNavigation { get; set; }
         public virtual ICollection<Compra> Compras { get; set; }
     }
 }

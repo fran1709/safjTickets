@@ -17,7 +17,7 @@ namespace devTicket.Models
         public int IdCliente { get; set; }
         public int IdEntrada { get; set; }
 
-        public virtual Usuario IdClienteNavigation { get; set; } = null!;
-        public virtual Entrada IdEntradaNavigation { get; set; } = null!;
+        public virtual Usuario? IdClienteNavigation { get; set; } 
+        public virtual Entrada? IdEntradaNavigation { get; set; } 
     }
 }
