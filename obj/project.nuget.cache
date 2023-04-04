@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FYBZ9hu3UYuuwK2sScgx43MdrZYF2JhOqtxeci8u/gPyZjqd97Ky0fpIkXX2OWu2yogNpTuaM97paT8krzgKRw==",
+  "dgSpecHash": "UKwjPQkdPpOnSVyHdQr4DAQp1QXhwoWzzyCn78ifh129TwuU2J80zgEr7fIv88DXQL/ZfNQSZMxD6jFXijUOBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sam\\.nuget\\packages\\datatables.net\\1.13.4\\datatables.net.1.13.4.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Sam\\.nuget\\packages\\jquery\\1.7.0\\jquery.1.7.0.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
     "C:\\Users\\Sam\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",

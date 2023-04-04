@@ -1,62 +1,57 @@
 ﻿@model devTicket.Models.Entrada
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear";
 }
 
-<h1>Create</h1>
+<h1>Crear Entrada</h1>
 
-<h4>Entrada</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="TipoAsiento" class="control-label"></label>
+                <label asp-for="TipoAsiento" class="control-label">Tipo de Asiento</label>
                 <input asp-for="TipoAsiento" class="form-control" />
                 <span asp-validation-for="TipoAsiento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Precio" class="control-label"></label>
+                <label asp-for="Precio" class="control-label">Precio</label>
                 <input asp-for="Precio" class="form-control" />
                 <span asp-validation-for="Precio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CreatedBy" class="control-label"></label>
+                <label asp-for="CreatedBy" class="control-label">Creado por</label>
                 <input asp-for="CreatedBy" class="form-control" />
                 <span asp-validation-for="CreatedBy" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UpdatedAt" class="control-label"></label>
+                <label asp-for="UpdatedAt" class="control-label">Actualizado el</label>
                 <input asp-for="UpdatedAt" class="form-control" />
                 <span asp-validation-for="UpdatedAt" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UpdatedBy" class="control-label"></label>
+                <label asp-for="UpdatedBy" class="control-label">Actualizado por</label>
                 <input asp-for="UpdatedBy" class="form-control" />
                 <span asp-validation-for="UpdatedBy" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
-                <label class="form-check-label">
+                <label class="form-check-label"> Activo
                     <input class="form-check-input" asp-for="Active" /> @Html.DisplayNameFor(model => model.Active)
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="IdEvento" class="control-label"></label>
+                <label asp-for="IdEvento" class="control-label">ID de Evento</label>
                 <select asp-for="IdEvento" class ="form-control" asp-items="ViewBag.IdEvento"></select>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="form-group d-grid gap-2 d-md-block p-2">
+                <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-reply" cla></i></a> |
+                <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

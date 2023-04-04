@@ -7,34 +7,34 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-success" asp-action="Create"><i class="fa fa-plus"></i></a>
 </p>
-<table class="table">
+<table class="table" id="asientoTable">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
+                <p>Descripcion</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cantidad)
+                <p>Cantidad</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
+                <p>Creado el</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
+                <p>Creado por</p>
             </th>
-            <th>
+            <!-- <th>
                 @Html.DisplayNameFor(model => model.UpdatedAt)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.UpdatedBy)
+            </th> -->
+            <th>
+                <p>Activo</p>
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Active)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdEscenarioNavigation)
+                <p>ID de Escenario</p>
             </th>
             <th></th>
         </tr>
@@ -54,12 +54,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CreatedBy)
             </td>
-            <td>
+                <!-- <td>
                 @Html.DisplayFor(modelItem => item.UpdatedAt)
-            </td>
+            </td> 
             <td>
                 @Html.DisplayFor(modelItem => item.UpdatedBy)
-            </td>
+                </td>-->
             <td>
                 @Html.DisplayFor(modelItem => item.Active)
             </td>
@@ -67,11 +67,19 @@
                 @Html.DisplayFor(modelItem => item.IdEscenarioNavigation.Id)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class = "btn btn-secondary" asp-action="Details" asp-route-id="@item.Id"><i class = "fa fa-list"></i></a> |
+                <a class = "btn btn-primary" asp-action="Edit" asp-route-id="@item.Id"><i class = "fa fa-pencil"></i></a> |
+                <a class = "btn btn-danger" asp-action="Delete" asp-route-id="@item.Id"><i class = "fa fa-trash"></i></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#asientoTable').DataTable();
+        });
+    </script>
+}

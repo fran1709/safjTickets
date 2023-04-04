@@ -1,81 +1,81 @@
 ﻿@model devTicket.Models.Evento
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Eliminar";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar Evento</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Está seguro que desea eliminar este evento?</h3>
 <div>
     <h4>Evento</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Disponible)
+            <p>Disponible</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Disponible)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
+            <p>Descripcion</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
+            <p>Fecha</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Fecha)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedAt)
+            <p>Creado el</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CreatedAt)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedBy)
+            <p>Creado por</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CreatedBy)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UpdatedAt)
+            <p>Actualizado el</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.UpdatedAt)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UpdatedBy)
+            <p>Actualizado por</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.UpdatedBy)
-        </dd>
+        </dd> 
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Active)
+            <p>Activo</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Active)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdEscenarioNavigation)
+            <p>ID de Escenario</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdEscenarioNavigation.Id)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdTipoEventoNavigation)
+            <p>ID de Tipo Evento</p>
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdTipoEventoNavigation.Id)
         </dd>
     </dl>
     
-    <form asp-action="Delete">
+      <form asp-action="Delete">
+        <a class="btn btn-secondary" asp-action="Index"><i class="fa fa-reply" cla></i></a> |
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
     </form>
 </div>

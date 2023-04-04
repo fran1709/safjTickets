@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hT1i3pMnatfbvyPbe/ySdSfMWRKT8zpy+o2BfEUyROY=",
+  "Hash": "TXR7J+FZUHL6uouLG1b0eWeTY+LIDliBdTOh8c8BoNw=",
   "Source": "devTicket",
   "BasePath": "_content/devTicket",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Sam\\.nuget\\packages\\datatables.net\\1.13.4\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.js",
+      "SourceId": "devTicket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sam\\Desktop\\safjTickets\\wwwroot\\",
+      "BasePath": "_content/devTicket",
+      "RelativePath": "js/jquery.dataTables.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sam\\.nuget\\packages\\datatables.net\\1.13.4\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.js"
+    },
+    {
+      "Identity": "C:\\Users\\Sam\\.nuget\\packages\\datatables.net\\1.13.4\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.min.js",
+      "SourceId": "devTicket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sam\\Desktop\\safjTickets\\wwwroot\\",
+      "BasePath": "_content/devTicket",
+      "RelativePath": "js/jquery.dataTables.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Sam\\.nuget\\packages\\datatables.net\\1.13.4\\contentFiles\\any\\any\\wwwroot\\js\\jquery.dataTables.min.js"
+    },
     {
       "Identity": "C:\\Users\\Sam\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.15\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",

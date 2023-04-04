@@ -29,13 +29,13 @@
                     <div class="dropdown">
                         <button>Administración</button>
                         <div class="dropdown-options">
-                            <a href="https://localhost:7273/Compras">Compras</a>
                             <a href="https://localhost:7273/Asientoes">Asientos</a>
+                            <a href="https://localhost:7273/Compras">Compras</a>
                             <a href="https://localhost:7273/Entradas">Entradas</a>
-                            <a href="https://localhost:7273/Eventos">Eventos</a>
-                            <a href="https://localhost:7273/TipoEventoes">Tipo de Evento</a>
                             <a href="https://localhost:7273/Escenarios">Escenarios</a>
+                            <a href="https://localhost:7273/Eventos">Eventos</a>
                             <a href="https://localhost:7273/TipoEscenarios">Tipo de Escenarios</a>
+                            <a href="https://localhost:7273/TipoEventoes">Tipo de Evento</a>
                             <a href="https://localhost:7273/Usuarios">Usuarios</a>
                         </div>
                     </div>
@@ -55,11 +55,14 @@
             &copy; 2023 - SaFj Tickets - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
