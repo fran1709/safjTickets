@@ -1,0 +1,96 @@
+﻿@model IEnumerable<devTicket.Models.DetalleEvento>
+@{
+	ViewData["Title"] = "Detalles de Eventos";
+    
+    if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+            @TempData["Error"]
+        </div>
+    }
+    if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+            @TempData["Success"]
+        </div>
+    }
+
+}
+
+<h1>Detalle de los Eventos </h1>
+<hr />
+<table class="table" id="tableDatalleEvento">
+    <thead>
+        <tr>
+            <th>
+                <p>ID</p>
+            </th>
+            <th>
+                <p>Descripcion</p>
+            </th>
+            <th>
+                <p>Tipo de Evento</p>
+            </th>
+            <th>
+                <p>Fecha</p>
+            </th>
+            <!--<th>
+                <p>Tipo de Escenario</p>
+            </th>--><
+            <th>
+                =<p>Escenario</p>
+            </th>
+            <th>
+                <p>Localizacion</p>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoEvento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fecha)
+                </td>
+                <!--<td>
+                    @Html.DisplayFor(modelItem => item.TipoEscenario)
+                </td>-->
+                <td>
+                    @Html.DisplayFor(modelItem => item.Escenario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Localizacion)
+                </td>
+                <td>
+                    <a title="Ver Detalles" class="btn btn-primary" asp-action="Create" asp-route-id="@item.Id"><i class="fa fa-eye"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#tableDatalleEvento').DataTable();
+        });
+         
+        window.setTimeout(function () {
+            $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                $(this).remove();
+            });
+        }, 5000);
+    </script>     
+}

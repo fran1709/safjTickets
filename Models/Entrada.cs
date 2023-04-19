@@ -12,6 +12,7 @@ namespace devTicket.Models
 
         public int Id { get; set; }
         public string TipoAsiento { get; set; } = null!;
+        public int Disponibles { get; set; }
         public decimal Precio { get; set; }
         public DateTime CreatedAt { get; set; }
         public int CreatedBy { get; set; }
