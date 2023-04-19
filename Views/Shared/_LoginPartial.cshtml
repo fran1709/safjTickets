@@ -4,6 +4,7 @@
 @inject UserManager<IdentityUser> UserManager
 
 <ul class="navbar-nav">
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
@@ -11,17 +12,37 @@
     </li>
     <li class="nav-item">
         <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button id="logout" type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            <button id="logout" type="submit" class="nav-link btn btn-link text-danger">Logout</button>
         </form>
     </li>
+    <li>
+            <div class="dropdown">
+                <button class="bg-white">Administración</button>
+                <div class="dropdown-options">
+                    <a href="https://localhost:7273/Asientoes">Asientos</a>
+                    <a href="https://localhost:7273/Compras">Compras</a>
+                    <a href="https://localhost:7273/Entradas">Entradas</a>
+                    <a href="https://localhost:7273/Escenarios">Escenarios</a>
+                    <a href="https://localhost:7273/Eventos">Eventos</a>
+                    <a href="https://localhost:7273/TipoEscenarios">Tipo de Escenarios</a>
+                    <a href="https://localhost:7273/TipoEventoes">Tipo de Evento</a>
+                    <a href="https://localhost:7273/Usuarios">Usuarios</a>
+                    <a href="https://localhost:7273/DetalleEvento">Detalle de los Eventos</a>
+                </div>
+            </div>
+    </li>
+    
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Registrarse</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Iniciar Sesion</a>
-    </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-success" id="register" asp-area="Identity" asp-page="/Account/Register">Registrarse</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-primary" id="login" asp-area="Identity" asp-page="/Account/Login">Iniciar Sesion</a>
+        </li>
+   
+    
 }
 </ul>
