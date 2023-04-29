@@ -13,6 +13,7 @@ a {
 .dropdown {
     display: inline-block;
     position: relative;
+    z-index: 9999;
 }
 
 button {
@@ -30,7 +31,8 @@ button:hover {
     position: absolute;
     overflow: auto;
     border-radius: 5px;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 10px 10px 0px rgba(1,1,1,0.4);
+    background-color: #fff;
 }
 
 .dropdown:hover .dropdown-options {

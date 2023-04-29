@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "efufYDtkgFXCt3EoQ4Lj9NATV1FwIjwn+Xbdygr5J3ifRPZ48TpYo0jA9iN8PsR30o96QPF0TYPSN7zTe5EQNA==",
+  "dgSpecHash": "a4Jr2sNeiofRaKHOmc+IHZIg3t81U+WRAZfOX5LN7waUWXFue3NW3uA8sxv1APEN7JIjcCgk+ao1lDWf1Bl9KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\devTicket.csproj",
+  "projectFilePath": "C:\\Users\\franj\\Documents\\.Net Projects\\safjTickets\\devTicket.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\franj\\.nuget\\packages\\datatables.net\\1.13.4\\datatables.net.1.13.4.nupkg.sha512",
     "C:\\Users\\franj\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
@@ -196,7 +196,11 @@
     "C:\\Users\\franj\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\franj\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\franj\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\franj\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\franj\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\franj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\franj\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\franj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\franj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
