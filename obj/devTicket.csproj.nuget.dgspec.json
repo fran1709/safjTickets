@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj": {}
+    "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\devTicket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj": {
+    "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\devTicket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj",
+        "projectUniqueName": "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\devTicket.csproj",
         "projectName": "devTicket",
-        "projectPath": "C:\\Users\\Sam\\Desktop\\safjTickets\\devTicket.csproj",
-        "packagesPath": "C:\\Users\\Sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sam\\Desktop\\safjTickets\\obj\\",
+        "projectPath": "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\devTicket.csproj",
+        "packagesPath": "C:\\Users\\franj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\franj\\Documents\\Electiva\\safjTickets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
